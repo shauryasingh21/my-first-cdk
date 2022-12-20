@@ -4,7 +4,7 @@ describe('My First CDK App Tests', () => {
 
     it('returns name and tekst', async () => {
         const output = await handler({ name: 'Shaurya' });
-        expect(output).toStrictEqual('Good Job Faruk!')
+        expect(output).toStrictEqual('Good Job Shaurya!')
     })
 
     it('returns no name and tekst', async () => {
